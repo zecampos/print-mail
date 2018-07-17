@@ -13,8 +13,5 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "nodemailer": "^4.6.7"
-  },
-  "engines": {
-    "node": "4.1.1"
   }
 }
