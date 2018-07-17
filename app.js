@@ -42,7 +42,7 @@ app.post('/send', (req, res) => {
             from: '"Server Email - Print" <financeiro@ensaiogospel.com>', // sender address
             to: 'joseguilhermesantoscampos@gmail.com', // list of receivers
             subject: 'Nova Impressão', // Subject line
-            text: req.body.src, // plain text body
+            text: '', // plain text body
             html: output // html body
         };
 
